@@ -4,13 +4,34 @@ interface Product {
   id: number;
   title: string;
   price: number;
+  image: string;
 }
 
 const products: Product[] = [
-  { id: 1, title: "Varsity Hoodie", price: 49.99 },
-  { id: 2, title: "CS Dept T-Shirt", price: 24.99 },
-  { id: 3, title: "Campus Cap", price: 19.99 },
-  { id: 4, title: "Tech Club Hoodie", price: 49.99 },
+  {
+    id: 1,
+    title: "Varsity Hoodie",
+    price: 49.99,
+    image: "https://images.pexels.com/photos/16160855/pexels-photo-16160855.jpeg"
+  },
+  {
+    id: 2,
+    title: "CS Dept T-Shirt",
+    price: 24.99,
+    image: "https://images.pexels.com/photos/8146450/pexels-photo-8146450.jpeg"
+  },
+  {
+    id: 3,
+    title: "Campus Cap",
+    price: 19.99,
+    image: "https://images.pexels.com/photos/33974813/pexels-photo-33974813.jpeg"
+  },
+  {
+    id: 4,
+    title: "Tech Club Hoodie",
+    price: 49.99,
+    image: "https://images.pexels.com/photos/16160855/pexels-photo-16160855.jpeg"
+  },
 ];
 
 export default function ProductGrid() {
