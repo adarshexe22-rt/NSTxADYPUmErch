@@ -9,7 +9,9 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold text-primary">NSTxADYPU Merch</span>
+            <span className="text-xl font-bold text-primary">
+              NSTxADYPU Merch
+            </span>
           </Link>
 
           {/* Center Navigation Links */}

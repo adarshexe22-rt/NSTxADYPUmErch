@@ -14,10 +14,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link
-                  to="/"
-                  className="hover:text-blue-300 transition-colors"
-                >
+                <Link to="/" className="hover:text-blue-300 transition-colors">
                   Home
                 </Link>
               </li>
@@ -62,7 +59,8 @@ export default function Footer() {
                 </a>
               </div>
               <p className="text-gray-300">
-                Available Monday - Friday<br />
+                Available Monday - Friday
+                <br />
                 9:00 AM - 5:00 PM IST
               </p>
             </div>
@@ -100,7 +98,8 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/20 pt-8">
           <p className="text-center text-gray-300">
-            &copy; {currentYear} NSTxADYPU Merchandise Store. All rights reserved.
+            &copy; {currentYear} NSTxADYPU Merchandise Store. All rights
+            reserved.
           </p>
         </div>
       </div>

@@ -26,10 +26,12 @@ export default function FeatureProduct() {
               </h2>
               <p className="text-primary font-semibold text-xl mb-4">$49.99</p>
               <p className="text-foreground text-lg leading-relaxed text-justify">
-                Celebrate your engineering pride with our signature hoodie. Crafted from premium quality
-                cotton blend fabric, this hoodie features the iconic Engineering Club logo and is
-                perfect for those late-night coding sessions or campus events. Available in multiple
-                sizes and colors, it's a wardrobe essential for every tech enthusiast on campus.
+                Celebrate your engineering pride with our signature hoodie.
+                Crafted from premium quality cotton blend fabric, this hoodie
+                features the iconic Engineering Club logo and is perfect for
+                those late-night coding sessions or campus events. Available in
+                multiple sizes and colors, it's a wardrobe essential for every
+                tech enthusiast on campus.
               </p>
             </div>
 
