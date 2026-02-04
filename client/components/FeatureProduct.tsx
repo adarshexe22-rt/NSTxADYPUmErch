@@ -11,24 +11,11 @@ export default function FeatureProduct() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Product Image */}
           <div className="flex items-center justify-center">
-            <div className="w-full h-96 bg-secondary rounded-lg flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <svg
-                  className="w-20 h-20 mx-auto mb-4 opacity-50"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-                <p className="text-sm">Product Image</p>
-              </div>
-            </div>
+            <img
+              src="https://images.pexels.com/photos/19461584/pexels-photo-19461584.jpeg"
+              alt="The Engineering Club Hoodie"
+              className="w-full h-96 object-cover rounded-lg bg-secondary"
+            />
           </div>
 
           {/* Product Details */}
