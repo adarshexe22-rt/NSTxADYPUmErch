@@ -31,12 +31,16 @@ const App = () => (
   </QueryClientProvider>
 );
 
-let root = (document.getElementById("root") as any)?._reactRoot;
-
-if (!root) {
-  const container = document.getElementById("root")!;
-  root = createRoot(container);
-  (container as any)._reactRoot = root;
+declare global {
+  interface Window {
+    __REACT_ROOT__?: ReturnType<typeof createRoot>;
+  }
 }
 
-root.render(<App />);
+const container = document.getElementById("root");
+if (container) {
+  if (!window.__REACT_ROOT__) {
+    window.__REACT_ROOT__ = createRoot(container);
+  }
+  window.__REACT_ROOT__.render(<App />);
+}
